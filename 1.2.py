@@ -21,7 +21,7 @@ def circ(y):
     for i in range(y):
         print(f"{' '*(LEN*2)}\x1b[48;5;6m{' '*(LEN*3)}\x1b[0m{' '*LEN*2}",end='')
     print()
-x = int(input())
-y = int(input())
-for i in range(x):        
-    circ(y)
+a = int(input())
+b = int(input())
+for i in range(a):        
+    circ(b)
