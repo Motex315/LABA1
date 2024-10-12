@@ -1,11 +1,12 @@
+LEN = 3
 def x2(y):
-    l = 3
-    for i in range(0,y):
+    
+    for i in range(y):
         if i != y-1:
             if i == 0:
-                print(f'^{' '*(l*(y-i-2)*2)}\x1b[48;5;6m{' '*(l*2)}\x1b[0m')
+                print(f"^{' '*(LEN*(y-i-2)*2)}\x1b[48;5;6m{' '*(LEN*2)}\x1b[0m")
             else:
-                print(f'|{' '*(l*(y-i-2)*2)}\x1b[48;5;6m{' '*(l*2)}\x1b[0m')
+                print(f"|{' '*(LEN*(y-i-2)*2)}\x1b[48;5;6m{' '*(LEN*2)}\x1b[0m")
 
         if i == y-1:
             for i in range(y):
