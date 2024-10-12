@@ -1,4 +1,5 @@
 LEN = 3
+
 def x2(y):
     
     for i in range(y):
